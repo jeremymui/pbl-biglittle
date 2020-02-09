@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.background {
+  background-color: #cce0db !important;
+}
+
+.nav {
+  background-color: #97c7bc !important;
+}
+
+.bio-card {
+  background-color: #fbfbfb !important;
+}
+
+.introduction-card {
+  background-color: #d8c6f5 !important;
+}
+
+.professional-card {
+  background-color: #e8cedb !important;
+}
+
+.personal-card {
+  background-color: #f3ece4 !important;
+}
+
+label {
+  color: #646464;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.icon-text {
+  padding-left: 5px;
+}
+
+.small-title {
+  font-size: 1.3rem !important;
+}
+
+.card-image .card-title {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.name {
+  font-size: 30px;
+}
+
+.role {
+  font-size: 20px;
+}
+
+.table-of-contents {
+  margin: 0;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+
+.sticky {
+  position: sticky;
+  top: 64px;
+}
+
+.table-of-contents li {
+  line-height: 1.25rem;
+}
+
+.table-of-contents a {
+  font-size: 14px;
+  height: 1rem;
+  line-height: 1rem;
+}
+
+.d-inline {
+  display: inline !important;
+}
